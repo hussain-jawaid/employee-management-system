@@ -1,7 +1,12 @@
 import React from "react";
+import Login from "./components/Auth/login";
 
 function App() {
-  return <div className="text-red-500">Hi, I'm tailwind!</div>;
+  return (
+    <>
+      <Login />
+    </>
+  );
 }
 
 export default App;
